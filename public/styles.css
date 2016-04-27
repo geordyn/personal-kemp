@@ -32,8 +32,8 @@ body {
 .wrap {
   max-width: 100vw;
   min-width: 100vw;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 90vh;
+  max-height: 90vh;
   /*desktop
   max-width: 625px;
   min-height: 450px;
@@ -50,7 +50,7 @@ body {
   z-index: 1;
   height: 100%;
   background: #fff;
-  max-width: 120px;
+  min-width: 200px;
   position: absolute;
   border-radius: 0px 3px 3px 0px;
 }
@@ -64,7 +64,7 @@ body {
 .right-menu a span, .footer a span {
   display: block;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 23px;
   font-weight: 600;
 }
 a.active, .right-menu a:hover {
@@ -88,7 +88,7 @@ a.active:after {
   font-size: 30px;
 }
 .avatar {
-  margin-right: 120px;
+  margin-right: 200px;
   margin-top: 300px;
   text-align: center;
   display: block;
@@ -149,7 +149,7 @@ a.active:after {
 .footer a {
   display: block;
   color: #fff;
-  padding: 130px 75px;
+  padding: 120px 43px;
   border-right: 1px solid #9E9AAB;
   background-color: rgba(0, 0, 0, 0.5);
   margin-right: 0px;
@@ -214,6 +214,7 @@ a.active:after {
   .avatar {
     /*padding-top: 56px;*/
     margin-top: 20px;
+    margin-right: 120px;
   }
   .avatar img {
     height: 150px;
@@ -225,6 +226,13 @@ a.active:after {
       padding: 20px 30.5px;
   line-height: 30px;
   }
+  .right-menu {
+       min-width: 120px;
+       max-width: 120px;
+  }
+  .right-menu a span, .footer a span {
+      font-size: 14px;
+    }
   .right-menu a {
       padding: 45px 28px;
       line-height: 30px;
