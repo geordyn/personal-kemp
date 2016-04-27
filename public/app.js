@@ -14,6 +14,11 @@ angular.module("app", ['ui.router'])
       templateUrl: 'projects.html',
       controller: 'mainCtrl',
     })
+    .state('resume', {
+      url: '/resume',
+      templateUrl: 'resume.html',
+      controller: 'mainCtrl',
+    })
 
     $urlRouterProvider.otherwise('/hello');
 
